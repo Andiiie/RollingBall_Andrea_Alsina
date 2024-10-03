@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class Bola : MonoBehaviour
 {
-    // Start is called before the first frame update
+    Vector3 direccion;
+    float velocidad;
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+
     void Update()
     {
-        
+        float h = Input.GetAxisRaw("Horizontal");
+        float v = Input.GetAxisRaw("Vertical");
+
     }
 }
